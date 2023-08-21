@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class C05_IstenmeyeniSil {
     public static void main(String[] args) {
         //Soru 3- Verilen String bir listede
-        //        istenmeyen harf iceren elementleri silip,
-        //        kalan kismini list olarak bize donduren bir method olusturun
+        //istenmeyen harf iceren elementleri silip,
+        //kalan kismini list olarak bize donduren bir method olusturun
 
         List<String> liste = C04_KullaniciyaListeOlusturtmak.kullaniciyaListOlusturtma();
         Scanner scan = new Scanner(System.in);

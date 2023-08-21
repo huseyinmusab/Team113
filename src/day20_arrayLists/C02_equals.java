@@ -28,8 +28,7 @@ public class C02_equals {
 
         System.out.println(sayilar1.equals(sayilar2));// false
 
-        // equals hem elementleri hem de index'leri kontrol eder
-
+        // equals hem elementleri hem de index'leri kontrol eder  *********************
         Collections.sort(sayilar1);
         Collections.sort(sayilar2);
         System.out.println("sayilar1 : "+sayilar1);

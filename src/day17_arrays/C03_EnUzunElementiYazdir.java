@@ -4,18 +4,12 @@ public class C03_EnUzunElementiYazdir {
 
     public static void main(String[] args) {
         //Soru 6- Verilen String bir array’deki
-        //        en uzun ve en kisa kelimeleri yazdiran bir method olusturun.
-
-        String[] arr1 = {"Melike", "Burkay","inci","Eda","Emre","Ali"};
+        // en uzun ve en kisa kelimeleri yazdiran bir method olusturun
+        String[] arr1 = {"Melike", "Burkay","inci","Eda","Emre","Aliyowiccciii"};
 
         enUzunEnKisaYazdir(arr1); // Burkay , Ali
-
-
-        String[] arr2 = {"Melike", "Burkay","inci","Eda","Emre","Huseyin","Su"};
-
+        String[] arr2 = {"Melike", "Burkay","inci","Eda","Emre","Huseyinowski","Su"};
         enUzunEnKisaYazdir(arr2); // Melike , Eda
-
-
     }
 
     public static void enUzunEnKisaYazdir(String[] arr){
@@ -23,11 +17,9 @@ public class C03_EnUzunElementiYazdir {
         String enKisaKelime=arr[0];
 
         for (int i = 0; i < arr.length ; i++) {
-
             if(arr[i].length()>=enUzunKelime.length()){
                 enUzunKelime=arr[i];
             }
-
             if(arr[i].length()<=enKisaKelime.length()){
                 enKisaKelime=arr[i];
             }

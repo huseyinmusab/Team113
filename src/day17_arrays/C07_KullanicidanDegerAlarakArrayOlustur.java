@@ -14,7 +14,7 @@ public class C07_KullanicidanDegerAlarakArrayOlustur {
 
         Scanner scan = new Scanner(System.in);
         int girilenSayi=1;
-        int[] arr= new int[0];//[]
+        int[] arr= new int[0];//[] empty array
 
         while (girilenSayi != 0){
             System.out.println("Array'e eklemek icin pozitif tamsayilar girin" +
@@ -22,12 +22,9 @@ public class C07_KullanicidanDegerAlarakArrayOlustur {
             girilenSayi = scan.nextInt();
 
             if (girilenSayi !=0){
-
                 arr=C06_ArrayElemanEklemeMethodu.arrayeElementEkle(arr,girilenSayi);
             }
-
         }
-
         System.out.println(Arrays.toString(arr));
     }
 }

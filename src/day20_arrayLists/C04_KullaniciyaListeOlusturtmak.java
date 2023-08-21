@@ -15,8 +15,7 @@ public class C04_KullaniciyaListeOlusturtmak {
 
 
     public static List<String> kullaniciyaListOlusturtma(){
-
-        List<String> isimler = new ArrayList<>();
+        List<String> isimler = new ArrayList<>();//
         String girilenisim="";
         Scanner scan = new Scanner(System.in);
 

@@ -16,6 +16,7 @@ public class C01_ifStatements {
 
             sadece degerler sartlari saglamadigi icin
             konsolda bir sey yazdirilmadi
+            adasdasdasdasdasdasda
          */
 
         int a = 13;

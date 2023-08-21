@@ -9,6 +9,7 @@ public class C01_HelloWorld {
         // IntelliJ'de bu aciklama yazilarini gri renkli yapar
 
         System.out.println("Hello World");
+        System.out.println("Hello World");
 
         /*
             Bu
@@ -22,6 +23,7 @@ public class C01_HelloWorld {
             sdfsdfsasdasd
             asdasd
             asdas
+            lk
          */
     }
 
