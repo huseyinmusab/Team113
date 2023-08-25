@@ -14,20 +14,16 @@ public class C02_Mutable_ImmutableClasses {
          */
 
         String str= "Java gun gectikce daha da keyifli oluyor";
-
         str.substring(5);
         str.substring(3,15);
         str.startsWith("Java");
         str.toLowerCase();
-
         System.out.println(str); // Java gun gectikce daha da keyifli oluyor
 
 
         List<Integer> sayilar= new ArrayList<>();
-
         sayilar.add(5);
         sayilar.add(8);
-
         System.out.println(sayilar); // [5, 8]
 
         sayilar.set(0,7);

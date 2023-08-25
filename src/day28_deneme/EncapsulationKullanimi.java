@@ -20,16 +20,15 @@ public class EncapsulationKullanimi {
     }
 }
 /*
-    C03_EncapsuleDatalar class'indaki
+    ** C03_EncapsuleDatalar class'indaki
     isim variable'inin degeri gorunsun ama degistirilemesin
     satisTutari ise deger girilebilsin ama girilen degerler sonradan gorulemesin
 
-    Eger bir variable icin read veya write ozelliklerinin
+    ** Eger bir variable icin read veya write ozelliklerinin
     birbirinden ayrilmasi isteniyorsa
     oncelikle access modifier ile kimsenin ulasamamasini saglayin
 
-    private yaparak kimsenin ulasamayacagini garantiye aldiktan sonra
-
+    ** private yaparak kimsenin ulasamayacagini garantiye aldiktan sonra
     READ yetkisi vermek istediklerimiz icin getter()
     WRITE yetkisi vermek istediklerimiz icin setter() olusturmaliyiz
 

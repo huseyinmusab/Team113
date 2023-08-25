@@ -27,6 +27,5 @@ public class C05_Child extends C03_ParentClass{
         obj.method1(); // child class method1
         obj.method2(); // Parent Method2 calisti
 
-
     }
 }

@@ -8,12 +8,10 @@ public class C03_ParentClass {
     String t;
 
     public void method1(){
-
         System.out.println("Parent Method1 calisti");
     }
 
     public void method2(){
-
         System.out.println("Parent Method2 calisti");
     }
 }

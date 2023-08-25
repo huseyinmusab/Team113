@@ -3,7 +3,7 @@ package day28_accessModifier_encapsulation;
 public class C01 {
 
     String str; // class level'daki her class uyesinin access modifier'i olur
-                // eger access modifier gorunmuyorsa Java o class uyesini default access modifier olarak isaretler
+                // eger access modifier gorunmuyorsa Java o class uyesini DEFAULT access modifier olarak isaretler
     static String s;
 
     private int b;
@@ -14,19 +14,17 @@ public class C01 {
 
 
     public static void main(String[] args) {
-
         int sayi = 10;
         // int sayi2 = 20;
         // static String b;
-        // bir method icerisinde public, protected, private gibi access modifier'lar
-        // veya static keyword KULLANILAMAZ
+        // bir METHOD ICERISINDE "public", "protected", "private" gibi access modifier'lar
+        // veya static keyword KULLANILAMAZZZZZZZZZZ *****************************************
 
         // System.out.println(b); static
         System.out.println(c);
 
         // str="Java"; static
         s="hava";
-
         a=10;
         // d=20; static
     }
